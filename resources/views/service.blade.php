@@ -27,7 +27,7 @@
                         <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
                             <i class="fa fa-user-tie fa-2x"></i>
                         </div>
-                        <h3 class="mb-3">Business Research</h3>
+                        <h3 class="mb-3">SMART HOME</h3>
                         <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem</p>
                     </div>
                 </div>
@@ -36,7 +36,7 @@
                         <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
                             <i class="fa fa-chart-pie fa-2x"></i>
                         </div>
-                        <h3 class="mb-3">Stretagic Planning</h3>
+                        <h3 class="mb-3">SMART PARKING</h3>
                         <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem</p>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
                         <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
                             <i class="fa fa-chart-line fa-2x"></i>
                         </div>
-                        <h3 class="mb-3">Market Analysis</h3>
+                        <h3 class="mb-3">INTERNET OF THINGS</h3>
                         <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem</p>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                         <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
                             <i class="fa fa-chart-area fa-2x"></i>
                         </div>
-                        <h3 class="mb-3">Financial Analaysis</h3>
+                        <h3 class="mb-3">AUTOMATION SYSTEMS</h3>
                         <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem</p>
                     </div>
                 </div>
@@ -63,7 +63,7 @@
                         <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
                             <i class="fa fa-balance-scale fa-2x"></i>
                         </div>
-                        <h3 class="mb-3">legal Advisory</h3>
+                        <h3 class="mb-3">HOTEL DOOR LOCK SYSTEM</h3>
                         <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem</p>
                     </div>
                 </div>
@@ -72,7 +72,7 @@
                         <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
                             <i class="fa fa-house-damage fa-2x"></i>
                         </div>
-                        <h3 class="mb-3">Tax & Insurance</h3>
+                        <h3 class="mb-3">CCTV SURVEILLANCE SYSTEM</h3>
                         <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem</p>
                     </div>
                 </div>
@@ -104,9 +104,9 @@
                             <div class="col-6">
                                 <div class="form-floating">
                                     <select class="form-select" id="floatingSelect" aria-label="Financial Consultancy">
-                                        <option selected>Financial Consultancy</option>
-                                        <option value="1">Strategy Consultancy</option>
-                                        <option value="2">Tax Consultancy</option>
+                                        <option selected>Software Solutions</option>
+                                        <option value="1">Business IT Solutions</option>
+                                        <option value="2">Office IT Supporting</option>
                                     </select>
                                     <label for="floatingSelect">Select A Service</label>
                                 </div>

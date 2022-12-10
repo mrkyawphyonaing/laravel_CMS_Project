@@ -49,7 +49,7 @@
             </div>
             <div class="col-lg-4">
                 <div class="d-block bg-primary h-100 text-center">
-                    <img class="img-fluid" src="img/feature.jpg" alt="">
+                    <img class="img-fluid" src="{{url('welcome/img/feature.jpg')}}" alt="">
                     <div class="p-4">
                         <p class="text-white mb-4">Clita nonumy sanctus nonumy et clita tempor, et sea amet ut et sadipscing rebum amet takimata amet, sed accusam eos eos dolores dolore et. Et ea ea dolor rebum invidunt clita eos. Sea accusam stet stet ipsum, sit ipsum et ipsum kasd</p>
                         <a href="" class="btn btn-light py-md-3 px-md-5 rounded-pill mb-2">Learn More</a>

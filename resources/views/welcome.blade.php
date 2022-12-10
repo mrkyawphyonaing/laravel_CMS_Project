@@ -263,7 +263,7 @@
             </div>
             <div class="col-lg-6" style="min-height: 400px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100" src="{{url('welcome/img/quote.jpg" style="object')}}-fit: cover;">
+                    <img class="position-absolute w-100 h-100" src="{{url('welcome/img/quote.jpg')}}" style="object-fit: cover;">
                 </div>
             </div>
         </div>

@@ -24,7 +24,7 @@
                     <div class="col-xl-6 col-lg-12 col-md-6">
                         <div class="blog-item">
                             <div class="position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                                <img class="img-fluid" src="{{url('welcome/img/blog-1.jpg')}}" alt="">
                             </div>
                             <div class="bg-secondary d-flex">
                                 <div class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
@@ -45,7 +45,7 @@
                     <div class="col-xl-6 col-lg-12 col-md-6">
                         <div class="blog-item">
                             <div class="position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                                <img class="img-fluid" src="{{url('welcome/img/blog-1.jpg')}}" alt="">
                             </div>
                             <div class="bg-secondary d-flex">
                                 <div class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
@@ -66,7 +66,7 @@
                     <div class="col-xl-6 col-lg-12 col-md-6">
                         <div class="blog-item">
                             <div class="position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                                <img class="img-fluid" src="{{url('welcome/img/blog-1.jpg')}}" alt="">
                             </div>
                             <div class="bg-secondary d-flex">
                                 <div class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
@@ -87,7 +87,7 @@
                     <div class="col-xl-6 col-lg-12 col-md-6">
                         <div class="blog-item">
                             <div class="position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                                <img class="img-fluid" src="{{url('welcome/img/blog-1.jpg')}}" alt="">
                             </div>
                             <div class="bg-secondary d-flex">
                                 <div class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
@@ -108,7 +108,7 @@
                     <div class="col-xl-6 col-lg-12 col-md-6">
                         <div class="blog-item">
                             <div class="position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                                <img class="img-fluid" src="{{url('welcome/img/blog-1.jpg')}}" alt="">
                             </div>
                             <div class="bg-secondary d-flex">
                                 <div class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
@@ -129,7 +129,7 @@
                     <div class="col-xl-6 col-lg-12 col-md-6">
                         <div class="blog-item">
                             <div class="position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                                <img class="img-fluid" src="{{url('welcome/img/blog-1.jpg')}}" alt="">
                             </div>
                             <div class="bg-secondary d-flex">
                                 <div class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
@@ -150,7 +150,7 @@
                     <div class="col-xl-6 col-lg-12 col-md-6">
                         <div class="blog-item">
                             <div class="position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                                <img class="img-fluid" src="{{url('welcome/img/blog-1.jpg')}}" alt="">
                             </div>
                             <div class="bg-secondary d-flex">
                                 <div class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
@@ -171,7 +171,7 @@
                     <div class="col-xl-6 col-lg-12 col-md-6">
                         <div class="blog-item">
                             <div class="position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                                <img class="img-fluid" src="{{url('welcome/img/blog-1.jpg')}}" alt="">
                             </div>
                             <div class="bg-secondary d-flex">
                                 <div class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
@@ -192,7 +192,7 @@
                     <div class="col-xl-6 col-lg-12 col-md-6">
                         <div class="blog-item">
                             <div class="position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                                <img class="img-fluid" src="{{url('welcome/img/blog-1.jpg')}}" alt="">
                             </div>
                             <div class="bg-secondary d-flex">
                                 <div class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
@@ -213,7 +213,7 @@
                     <div class="col-xl-6 col-lg-12 col-md-6">
                         <div class="blog-item">
                             <div class="position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                                <img class="img-fluid" src="{{url('welcome/img/blog-1.jpg')}}" alt="">
                             </div>
                             <div class="bg-secondary d-flex">
                                 <div class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
@@ -282,27 +282,27 @@
                 <div class="mb-5">
                     <h2 class="mb-4">Recent Post</h2>
                     <div class="d-flex mb-3">
-                        <img class="img-fluid" src="img/blog-1.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                        <img class="img-fluid" src="{{url('welcome/img/blog-1.jpg')}}" style="width: 100px; height: 100px; object-fit: cover;" alt="">
                         <a href="" class="h5 d-flex align-items-center bg-secondary px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
                         </a>
                     </div>
                     <div class="d-flex mb-3">
-                        <img class="img-fluid" src="img/blog-1.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                        <img class="img-fluid" src="{{url('welcome/img/blog-1.jpg')}}" style="width: 100px; height: 100px; object-fit: cover;" alt="">
                         <a href="" class="h5 d-flex align-items-center bg-secondary px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
                         </a>
                     </div>
                     <div class="d-flex mb-3">
-                        <img class="img-fluid" src="img/blog-1.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                        <img class="img-fluid" src="{{url('welcome/img/blog-1.jpg')}}" style="width: 100px; height: 100px; object-fit: cover;" alt="">
                         <a href="" class="h5 d-flex align-items-center bg-secondary px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
                         </a>
                     </div>
                     <div class="d-flex mb-3">
-                        <img class="img-fluid" src="img/blog-1.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                        <img class="img-fluid" src="{{url('welcome/img/blog-1.jpg')}}" style="width: 100px; height: 100px; object-fit: cover;" alt="">
                         <a href="" class="h5 d-flex align-items-center bg-secondary px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
                         </a>
                     </div>
                     <div class="d-flex">
-                        <img class="img-fluid" src="img/blog-1.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                        <img class="img-fluid" src="{{url('welcome/img/blog-1.jpg')}}" style="width: 100px; height: 100px; object-fit: cover;" alt="">
                         <a href="" class="h5 d-flex align-items-center bg-secondary px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
                         </a>
                     </div>
@@ -311,7 +311,7 @@
 
                 <!-- Image Start -->
                 <div class="mb-5">
-                    <img src="img/blog-1.jpg" alt="" class="img-fluid">
+                    <img src="{{url('welcome/img/blog-1.jpg')}}" alt="" class="img-fluid">
                 </div>
                 <!-- Image End -->
 
