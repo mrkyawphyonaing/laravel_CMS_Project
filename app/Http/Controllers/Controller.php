@@ -12,13 +12,7 @@ class Controller extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
     public function show () {
-        $fruits = ['apple', 'orange', 'banana'];
-        return view('welcome')->with([
-            'name' => 'Laravel',
-            'fruits' => $fruits,
-            'author_id' => 111,
-            'blog_id' => 222
-        ]);
+        return view('welcome');
     }
 }
 
