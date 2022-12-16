@@ -53,3 +53,6 @@ Route::get('team', function () {
 Route::get('testimonial', function () {
     return view('testimonial');
     })->name('testimonial');
+
+Route::get('testing',[ContactController::class,'testing']);
+
