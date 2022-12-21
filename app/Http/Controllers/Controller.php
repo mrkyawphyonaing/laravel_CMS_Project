@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Publisher;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;
@@ -17,8 +18,15 @@ class Controller extends BaseController
     }
     public function testing() {
         //$authors = DB::table('authors')->get();
-        $authors = DB::select('select * from authors');
-        return $authors;
+        //$authors = DB::select('select * from authors');
+        //return $authors;
+        $publishers = Publisher::all();
+        $publishers = Publisher::where('id', '>=',5)->where('name','=','Carroll Feil')->get();
+
+        //return $publishers; output from database test publisher
+        return view('testing')->with([
+            'publishers'=>$publishers,
+        ]);
     }
 
 }

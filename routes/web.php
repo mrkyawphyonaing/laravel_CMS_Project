@@ -1,8 +1,10 @@
 <?php
 
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\BookController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\Controller;
+use App\Models\Book;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -56,3 +58,4 @@ Route::get('testimonial', function () {
 
 Route::get('testing',[ContactController::class,'testing']);
 
+Route::get('books', [BookController::class, 'books']);
