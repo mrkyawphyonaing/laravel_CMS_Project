@@ -91,64 +91,23 @@
     <!-- Services Start -->
     <div class="container-fluid pt-6 px-5">
         <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-            <h1 class="display-5 mb-0">What We Offer</h1>
+            <h1 class="display-5 mb-0">ရရှိနိုင်သောစာအုပ်များ</h1>
             <hr class="w-25 mx-auto bg-primary">
         </div>
         <div class="row g-5">
-            <div class="col-lg-4 col-md-6">
+            @foreach ($categories as $category) )
+
+
+            <div class="col-lg-12 col-md-6">
                 <div class="service-item bg-secondary text-center px-5">
                     <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
                         <i class="fa fa-user-tie fa-2x"></i>
                     </div>
-                    <h3 class="mb-3">SMART HOME</h3>
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem</p>
+                    <h3 class="mb-3">စာပေ အမျိုးအစား</h3>
+                    <p class="mb-0"> <h5>({{$category->name}})</h5></p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item bg-secondary text-center px-5">
-                    <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
-                        <i class="fa fa-chart-pie fa-2x"></i>
-                    </div>
-                    <h3 class="mb-3">SMART PARKING</h3>
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item bg-secondary text-center px-5">
-                    <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
-                        <i class="fa fa-chart-line fa-2x"></i>
-                    </div>
-                    <h3 class="mb-3">INTERNET OF THINGS</h3>
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item bg-secondary text-center px-5">
-                    <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
-                        <i class="fa fa-chart-area fa-2x"></i>
-                    </div>
-                    <h3 class="mb-3">AUTOMATION SYSTEMS</h3>
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item bg-secondary text-center px-5">
-                    <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
-                        <i class="fa fa-balance-scale fa-2x"></i>
-                    </div>
-                    <h3 class="mb-3">HOTEL DOOR LOCK SYSTEM</h3>
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item bg-secondary text-center px-5">
-                    <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
-                        <i class="fa fa-house-damage fa-2x"></i>
-                    </div>
-                    <h3 class="mb-3">CCTV SURVEILLANCE SYSTEM</h3>
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem</p>
-                </div>
-            </div>
+            @endforeach
         </div>
     </div>
     <!-- Services End -->
@@ -278,33 +237,19 @@
             <hr class="w-25 mx-auto bg-primary">
         </div>
         <div class="row g-5">
-            <div class="col-lg-4">
+            @foreach ($members as $member)
+
+
+            <div class="col-lg-3">
                 <div class="team-item position-relative overflow-hidden">
-                    <img class="img-fluid w-100" src="{{url('welcome/img/team-')}}1.jpg" alt="">
+                    <img class="img-fluid w-100" src="{{$member->photo}}" alt="">
                     <div class="team-text w-100 position-absolute top-50 text-center bg-primary p-4">
-                        <h3 class="text-white">Full Name</h3>
-                        <p class="text-white text-uppercase mb-0">IT Project Manager</p>
+                        <h3 class="text-white">{{$member->name}}</h3>
+                        <p class="text-white text-uppercase mb-0">{{$member->position}}</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
-                <div class="team-item position-relative overflow-hidden">
-                    <img class="img-fluid w-100" src="{{url('welcome/img/team-')}}2.jpg" alt="">
-                    <div class="team-text w-100 position-absolute top-50 text-center bg-primary p-4">
-                        <h3 class="text-white">Full Name</h3>
-                        <p class="text-white text-uppercase mb-0">Senior Developer</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="team-item position-relative overflow-hidden">
-                    <img class="img-fluid w-100" src="{{url('welcome/img/team-')}}3.jpg" alt="">
-                    <div class="team-text w-100 position-absolute top-50 text-center bg-primary p-4">
-                        <h3 class="text-white">Full Name</h3>
-                        <p class="text-white text-uppercase mb-0">Senior System Engineer</p>
-                    </div>
-                </div>
-            </div>
+            @endforeach
         </div>
     </div>
     <!-- Team End -->

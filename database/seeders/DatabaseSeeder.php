@@ -7,6 +7,7 @@ namespace Database\Seeders;
 use App\Models\Book;
 use App\Models\Factory;
 use App\Models\Publisher;
+use App\Models\TeamMember;
 use Illuminate\Database\Seeder;
 use Database\Seeders\AuthorSeeder;
 use PhpParser\Node\Stmt\Catch_;
@@ -33,6 +34,7 @@ class DatabaseSeeder extends Seeder
         //Publisher::factory()->count(10)->make();
         Publisher::factory(10)->create();
         Book::factory()->count(500)->create();
+        TeamMember::factory()->count(4)->create();
 
     }
 }

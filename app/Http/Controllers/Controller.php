@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Category;
 use App\Models\Publisher;
+use App\Models\TeamMember;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;
@@ -14,7 +16,11 @@ class Controller extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
     public function show () {
-        return view('welcome');
+        $team_members = TeamMember::orderBy('name')->get();
+        $categories = Category::all();
+        return view('welcome')->with([
+            'members'=>$team_members,'categories'=>$categories,
+        ]);
     }
     public function testing() {
         //$authors = DB::table('authors')->get();
